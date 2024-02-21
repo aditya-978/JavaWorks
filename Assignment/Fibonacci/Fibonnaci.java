@@ -1,3 +1,5 @@
+package Assignment.Fibonacci;
+
 public class Fibonnaci {
     public static int fibo(int n){
         if (n==1 || n==0){
