@@ -1,8 +1,8 @@
-package Assignment.FirstJava;
+package Assignment.Calculator;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class NormalCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter 2 numbers: ");
