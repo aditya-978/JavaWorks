@@ -1,3 +1,6 @@
+//abstract classes practice
+package Assignment.FirstJava;
+
 class Solution2 {
     public boolean isPalindrome(int x){
 //        int y = x, r, sum=0;
