@@ -1,3 +1,5 @@
+package Assignment.Games;
+
 import java.util.Random;
 import java.util.Scanner;
 

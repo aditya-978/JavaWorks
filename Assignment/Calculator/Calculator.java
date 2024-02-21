@@ -1,3 +1,5 @@
+package Assignment.Calculator;
+
 class CannotDivideByZero extends Exception{
     @Override
     public String getMessage(){

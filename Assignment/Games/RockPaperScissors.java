@@ -1,3 +1,5 @@
+package Assignment.Games;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -20,7 +22,7 @@ public class RockPaperScissors {
                 System.out.println("Computer Input "+computerInput);
 
                 if (computerInput == userInput) {
-                    System.out.println("Game draw for this round!");
+                    System.out.println("Assignment.Games.Game draw for this round!");
                     userTotal++; compTotal++; numberOfTimes--;
                 }
                 else if(userInput == 0 && computerInput == 2 || userInput == 1 && computerInput == 0 || userInput == 2 && computerInput == 1){

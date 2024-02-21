@@ -34,7 +34,7 @@ public class MethodsPracticeSet {
         int number = scs.nextInt();
         table(number);
         System.out.println();
-        System.out.print("Enter number of lines for the pattern: ");
+        System.out.print("Enter number of lines for the Assignment.Patterns.pattern: ");
         int line = scs.nextInt();
         pattern(line);
         System.out.println("Sum of first 10 natural number is: "+sum(10));
