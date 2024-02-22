@@ -42,9 +42,11 @@ public class RockPaperScissors {
 
         if(userTotal > compTotal){
             System.out.println("You win the game.");
+        } else if(userTotal < compTotal){
+            System.out.println("Computer win the game.");
         }
         else {
-            System.out.println("Computer wins the game.");
+            System.out.println("Game Draw.");
         }
     }
 }
