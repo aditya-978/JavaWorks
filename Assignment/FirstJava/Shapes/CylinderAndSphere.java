@@ -1,6 +1,8 @@
+package Assignment.FirstJava.Shapes;
+
 import java.util.Scanner;
 
-public class AccessModifierPracticeSet {
+public class CylinderAndSphere {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter height of cylinder: ");
@@ -24,7 +26,7 @@ public class AccessModifierPracticeSet {
 
 class Cylinder{
     private float height, radius;
-    //Problem 1: Use getters and Setters to set radius and heights
+    //Using getters and Setters to set radius and heights
 
 //    public void setHeight(float h){
 //        height = h;
@@ -54,7 +56,7 @@ class Cylinder{
     }
 }
 
-// Problem 3: Repeat problem 1 for Sphere
+//for Assignment.FirstJava.Shapes.Sphere
 class Sphere{
     private float radius;
     public void setRadius(float r){
