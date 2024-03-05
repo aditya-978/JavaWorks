@@ -23,7 +23,7 @@ public class SelectionSort {
         }
     }
 
-    static void swap(int[] arr, int first, int last){
+    public static void swap(int[] arr, int first, int last){
         int temp = arr[first];
         arr[first] = arr[last];
         arr[last] = temp;
