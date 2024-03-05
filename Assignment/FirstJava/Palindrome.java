@@ -20,7 +20,18 @@ class Solution2 {
 }
 public class Palindrome {
     public static void main(String[] args) {
-        boolean sol = new Solution2().isPalindrome(4554);
+//        boolean sol = new Solution2().isPalindrome(4554);
+        boolean sol = palindrome("kerala");
         System.out.println(sol);
+    }
+    static boolean palindrome(String s){
+        int start = 0, end = s.length()-1;
+        while(start<=end){
+            if(s.charAt(start) == s.charAt(end)){
+                start++;
+                end--;
+            } else return false;
+        }
+        return true;
     }
     }
