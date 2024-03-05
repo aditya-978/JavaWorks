@@ -21,7 +21,7 @@ class Solution2 {
 public class Palindrome {
     public static void main(String[] args) {
 //        boolean sol = new Solution2().isPalindrome(4554);
-        boolean sol = palindrome("21512");
+        boolean sol = palindrome("kerala");
         System.out.println(sol);
     }
     static boolean palindrome(String s){
