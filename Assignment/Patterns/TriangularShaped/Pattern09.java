@@ -1,32 +1,28 @@
-package Assignment.Patterns;
+package Assignment.Patterns.TriangularShaped;
 
 import java.util.Scanner;
 
 /* Problem Statement: Print this pattern
-                             *
-                            ***
-                           *****
-                          *******
                          *********
- */
-public class Pattern08 {
+                          *******
+                           *****
+                            ***
+                             *
+*/
+public class Pattern09 {
     public static void main(String[] args) {
         int i,j;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of lines: ");
         int n = sc.nextInt();
-        for(i=1;i<=n;i++)
-        {
-            for(j=i;j<=n;j++)
-            {
+        for (int rows = n; rows > 0; rows--) {
+            for (int spaces = 1; spaces <= n-rows; spaces++) {
                 System.out.print(" ");
             }
-            for(j=1;j<=i;j++)
-            {
+            for (int cols = 1; cols < (2*rows) ; cols++) {
                 System.out.print("*");
             }
-            System.out.println(" ");
+            System.out.println();
         }
     }
 }
-//unsolved

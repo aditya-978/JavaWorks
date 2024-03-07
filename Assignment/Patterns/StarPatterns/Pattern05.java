@@ -1,4 +1,4 @@
-package Assignment.Patterns;
+package Assignment.Patterns.StarPatterns;
 
 import java.util.Scanner;
 

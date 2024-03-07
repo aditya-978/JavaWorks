@@ -1,4 +1,4 @@
-package Assignment.Patterns;
+package Assignment.Patterns.NumberPatterns;
 
 import java.util.Scanner;
 
