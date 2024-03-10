@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.SortingTechniques;
 
 /*
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time by comparisons.
@@ -19,7 +19,7 @@ public class InsertionSort {
         for(int i = 0; i<arr.length-1;i++){
             for(int j=i+1; j>0;j--){
                 if(arr[j]<arr[j-1]){
-                    Lectures.SelectionSort.swap(arr,j,j-1);
+                    SelectionSort.swap(arr,j,j-1);
                 } else break;
             }
         }

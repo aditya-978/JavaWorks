@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.SortingTechniques;
 
 /*
 Bubble sort is a simple sorting algorithm.

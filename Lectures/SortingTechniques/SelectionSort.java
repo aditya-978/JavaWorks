@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.SortingTechniques;
 
 /*
 In selection sort, the smallest/largest value among the unsorted elements of the array is selected in every pass

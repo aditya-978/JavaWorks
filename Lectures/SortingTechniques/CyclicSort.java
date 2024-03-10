@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.SortingTechniques;
 
 /*
 Cycle sort is an in-place sorting algorithm.
@@ -18,7 +18,7 @@ Time Complexity: Worst Case : O(n)
 
 import java.util.Arrays;
 
-import static Lectures.SelectionSort.swap;
+import static Lectures.SortingTechniques.SelectionSort.swap;
 
 public class CyclicSort {
     static void cyclic(int[] arr){
