@@ -5,7 +5,7 @@ package Assignment.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-import static Lectures.SelectionSort.swap;
+import static Lectures.SortingTechniques.SelectionSort.swap;
 
 public class FindDisappearedNumbers {
     static List<Integer> disappearedNumbers(int[] nums) {

@@ -10,7 +10,12 @@ public class Fibonnaci {
         return nm1 + nm2;
     }
     public static void main(String[] args) {
-        int n = 6;
-        System.out.println(fibo(n));
+        int n = 50;
+        System.out.println(fiboFormula(n));
+    }
+
+    //Using Formula
+    static int fiboFormula(int n){
+        return (int)(Math.pow(((1+Math.sqrt(5))/2),n)/Math.sqrt(5));
     }
 }
