@@ -10,7 +10,7 @@ public class Fibonnaci {
         return nm1 + nm2;
     }
     public static void main(String[] args) {
-        int n = 50;
+        int n = 3;
         System.out.println(fiboFormula(n));
     }
 
